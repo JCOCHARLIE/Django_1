@@ -11,13 +11,12 @@
     <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
     <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
     <link rel="stylesheet" href="{% static "css/slick.css" %}">
+    <link rel="stylesheet" href="{% static "css/templatemo-style.css" %}">
 
 
 
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/slick.css" type="text/css" />
-    <link rel="stylesheet" href="css/templatemo-style.css">
+
 <!--
     
 TemplateMo 560 Astro Motion
@@ -28,7 +27,7 @@ https://templatemo.com/tm-560-astro-motion
 </head>
 <body>
     <video autoplay muted loop id="bg-video">
-        <source src="video/burnout.mp4" type="video/mp4">
+        <source src="{% static "video/burnout.mp4" %}" type="video/mp4">
     </video>
     <div class="page-container">
       <div class="container-fluid">
@@ -80,9 +79,9 @@ https://templatemo.com/tm-560-astro-motion
                   </p>
                  </div>
                 <div class="intro-right">
-                   <img src="img/maybach.jpeg" alt="Image" class="img-fluid intro-img-1">
-                  <img src="img/tesla_x.jpeg" alt="Image" class="img-fluid intro-img-2">
-                  <img style="width: 275px; height: 183px; margin-top: 10px" src="img/range_sport.jpeg" alt="Image" class="img-fluid intro-img-3">
+                   <img src="{% static "img/maybach.jpeg" %}" alt="Image" class="img-fluid intro-img-1">
+                  <img src="{% static "img/tesla_x.jpeg" %}" alt="Image" class="img-fluid intro-img-2">
+                  <img style="width: 275px; height: 183px; margin-top: 10px" src="{% static "img/range_sport.jpeg" %}" alt="Image" class="img-fluid intro-img-3">
                 </div>
                 <div class="circle intro-circle-1"></div>
                 <div class="circle intro-circle-2"></div>
@@ -103,7 +102,7 @@ https://templatemo.com/tm-560-astro-motion
               <div class="circle intro-circle-2"></div>
               <div class="mx-auto tm-border-top gallery-slider">
                 <figure class="effect-julia item">
-                    <img style="width: 800px; height: 200px" src="img/brabus_wagon.jpeg" alt="Image">
+                    <img style="width: 800px; height: 200px" src="{% static "img/brabus_wagon.jpeg" %}" alt="Image">
                     <figcaption>
                         <div>
                             <p>Brabus G wagon</p>
@@ -112,7 +111,7 @@ https://templatemo.com/tm-560-astro-motion
                     </figcaption>
                 </figure>
                 <figure class="effect-julia item">
-                    <img style="width: 800px; height: 200px" src="img/challenger.jpeg" alt="Image">
+                    <img style="width: 800px; height: 200px" src="{% static "img/challenger.jpeg" %}" alt="Image">
                     <figcaption>
                         <div>
                             <p>Dodge Challenger</p>
@@ -121,7 +120,7 @@ https://templatemo.com/tm-560-astro-motion
                     </figcaption>
                 </figure>
                 <figure class="effect-julia item">
-                    <img style="width: 800px; height: 200px" src="img/gls600.jpeg" alt="Image">
+                    <img style="width: 800px; height: 200px" src="{% static "img/gls600.jpeg" %}" alt="Image">
                     <figcaption>
                         <div>
                             <p>Mercedes GLS 600</p>
@@ -130,7 +129,7 @@ https://templatemo.com/tm-560-astro-motion
                     </figcaption>
                 </figure>
                 <figure class="effect-julia item">
-                    <img style="width: 800px; height: 200px" src="img/srt.jpeg" alt="Image">
+                    <img style="width: 800px; height: 200px" src="{% static "img/srt.jpeg" %}" alt="Image">
                     <figcaption>
                         <div>
                             <p>Subaru STI WRX</p>
@@ -139,7 +138,7 @@ https://templatemo.com/tm-560-astro-motion
                     </figcaption>
                 </figure>
                 <figure class="effect-julia item">
-                    <img style="width: 800px; height: 200px" src="img/z4.jpeg" alt="Image">
+                    <img style="width: 800px; height: 200px" src="{% static "img/z4.jpeg" %}" alt="Image">
                     <figcaption>
                         <div>
                             <p>BMW Z4</p>
@@ -148,7 +147,7 @@ https://templatemo.com/tm-560-astro-motion
                     </figcaption>
                 </figure>
                 <figure class="effect-julia item">
-                    <img style="width: 800px; height: 200px" src="img/gallery-img-06.jpg" alt="Image">
+                    <img style="width: 800px; height: 200px" src="{% static "img/gallery-img-06.jpg" %}" alt="Image">
                     <figcaption>
                         <div>
                             <p>Julia dances in the deep dark</p>
@@ -157,7 +156,7 @@ https://templatemo.com/tm-560-astro-motion
                     </figcaption>
                 </figure>
                 <figure class="effect-julia item">
-                    <img style="width: 800px; height: 200px" src="img/amg-gt.jpeg" alt="Image">
+                    <img style="width: 800px; height: 200px" src="{% static "img/amg-gt.jpeg" %}" alt="Image">
                     <figcaption>
                         <div>
                             <p>Julia dances in the deep dark</p>
@@ -166,7 +165,7 @@ https://templatemo.com/tm-560-astro-motion
                     </figcaption>
                 </figure>
                 <figure class="effect-julia item">
-                    <img style="width: 800px; height: 200px" src="img/gallery-img-08.jpg" alt="Image">
+                    <img style="width: 800px; height: 200px" src="{% static "img/gallery-img-08.jpg" %}" alt="Image">
                     <figcaption>
                         <div>
                             <p>Julia dances in the deep dark</p>
@@ -175,7 +174,7 @@ https://templatemo.com/tm-560-astro-motion
                     </figcaption>
                 </figure>
                 <figure class="effect-julia item">
-                    <img style="width: 800px; height: 200px" src="img/gallery-img-09.jpg" alt="Image">
+                    <img style="width: 800px; height: 200px" src="{% static "img/gallery-img-09.jpg" %}" alt="Image">
                     <figcaption>
                         <div>
                             <p>Julia dances in the deep dark</p>
@@ -195,13 +194,9 @@ https://templatemo.com/tm-560-astro-motion
               <div class="tm-bg-dark content-pad">
                 <h2 class="mb-4">About our company</h2>
                 <p class="mb-4">
-                  You are <span class="highlight">allowed</span> to use Astro Motion HTML Template for your websites. You are not allowed to re-distribute this template ZIP file on any Free CSS template collection website. Illegal redistribution is strongly prohibited.
+                  <span class="highlight">Rent a car</span> is here to provide the best exclusive cars for your usage at an affordable rate when you go out with your friends or colleagues for that dinner or outing.
                 </p>
-                <p>
-                  Praesent auctor rhoncus arcu, vitae blandit est vestibulum sit amet. Integer erat
-                  turpis, vestibulum pellentesque aliquam ultricies, finibus nec dui. Donec bibendum
-                  enim mi, at tristique leo feugiat at. Thank you for visiting Template Mo.
-                </p>
+
               </div>              
             </div>
           </li>
@@ -231,15 +226,13 @@ https://templatemo.com/tm-560-astro-motion
                 </div>
                 <div class="col-md-6 tm-contact-right">                  
                   <p class="mb-4">
-                    Integer erat turpis, vestibulum pellentesque aliquam
-                    ultricies, finibus nec dui. Donec bibendum enim mi,
-                    at tristique leo feugiat at.
+                    Reach out to us today to book yourself a majestic vehicle that will satisfy your driving needs for your next outing
                   </p>
                   <div>
-                    Email: <a href="mailto:info@company.com" class="tm-link-white">info@company.com</a>
+                    Email: <a href="mailto:info@company.com" class="tm-link-white">rentacar@gmail.com</a>
                   </div>
                   <div class="tm-mb-45">
-                    Tel: <a href="tel:0100200340" class="tm-link-white">010-020-0340</a>
+                    Tel: <a href="tel:0706792790" class="tm-link-white">0706792790</a>
                   </div>
                   <!-- Map -->
                   <div class="map-outer">
@@ -272,9 +265,9 @@ https://templatemo.com/tm-560-astro-motion
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
   </div>  
-  <script src="js/jquery-3.5.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/slick.js"></script>
-  <script src="js/templatemo-script.js"></script>
+  <script src="{% static "js/jquery-3.5.1.min.js" %}"></script>
+  <script src="{% static "js/bootstrap.min.js" %}"></script>
+  <script src="{% static "js/slick.js" %}"></script>
+  <script src="{% static "js/templatemo-script.js" %}"></script>
 </body>
 </html>
